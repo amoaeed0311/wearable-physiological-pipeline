@@ -1,0 +1,13 @@
+# 1. Ingestion & Preprocessing
+python -m src.ingestion.load_data
+python -m src.features.preprocessing
+python -m src.features.hrv_features
+
+# 2. Model Training & Benchmarking
+python -m src.models.baseline_model
+python -m src.models.dl_fusion_model
+
+# 3. Forecasting & Robustness Simulation
+python -m src.models.forecasting
+python -m src.simulation.evaluate_robustness
+python -m src.simulation.plot_results
