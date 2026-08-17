@@ -1,4 +1,6 @@
-﻿numpy
+﻿streamlit
+torch
+numpy
 pandas
 scipy
 scikit-learn
